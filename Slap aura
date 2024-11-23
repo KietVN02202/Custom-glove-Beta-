@@ -199,5 +199,4 @@ gloveHits = {
 ["Custom"] = game.ReplicatedStorage.CustomHit,
 ["God's Hand"] = game.ReplicatedStorage.Godshand,
 ["Error"] = game.ReplicatedStorage.Errorhit
-["Boxer"] = game.GetService.ReplicatedStorage.Boxing
 }
