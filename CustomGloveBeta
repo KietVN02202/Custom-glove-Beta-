@@ -1,1 +1,127 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _vBlOZGTYUHPn = a; end)); return(function(h,...)local d;local f;local c;local s;local j;local l;local e=24915;local n=0;local t={};while n<173 do n=n+1;while n<0x340 and e%0x190e<0xc87 do n=n+1 e=(e*887)%25415 local o=n+e if(e%0x38da)>=0x1c6d then e=(e*0x2ac)%0x4dff while n<0x2a8 and e%0x1c6e<0xe37 do n=n+1 e=(e*441)%12195 local d=n+e if(e%0xc0a)>0x605 then e=(e+0x4e)%0x8790 local e=61475 if not t[e]then t[e]=0x1 s={};end elseif e%2~=0 then e=(e-0x1e8)%0x244b local e=20234 if not t[e]then t[e]=0x1 end else e=(e-0x3e7)%0xaa1c n=n+1 local e=64825 if not t[e]then t[e]=0x1 c=tonumber;end end end elseif e%2~=0 then e=(e+0x4c)%0xa491 while n<0x2aa and e%0x1d24<0xe92 do n=n+1 e=(e*257)%31031 local o=n+e if(e%0x35d2)<0x1ae9 then e=(e*0x293)%0x2abc local e=13507 if not t[e]then t[e]=0x1 l=function(t)local e=0x01 local function n(n)e=e+n return t:sub(e-n,e-0x01)end while true do local t=n(0x01)if(t=="\5")then break end local e=f.byte(n(0x01))local e=n(e)if t=="\2"then e=s.AwXpWc_I(e)elseif t=="\3"then e=e~="\0"elseif t=="\6"then d[e]=function(n,e)return h(8,nil,h,e,n)end elseif t=="\4"then e=d[e]elseif t=="\0"then e=d[e][n(f.byte(n(0x01)))];end local n=n(0x08)s[n]=e end end end elseif e%2~=0 then e=(e+0x300)%0x8ccb local e=6849 if not t[e]then t[e]=0x1 end else e=(e*0x4b)%0xcf9 n=n+1 local e=30866 if not t[e]then t[e]=0x1 j="\4\8\116\111\110\117\109\98\101\114\65\119\88\112\87\99\95\73\0\6\115\116\114\105\110\103\4\99\104\97\114\109\89\82\88\73\88\99\119\0\6\115\116\114\105\110\103\3\115\117\98\74\73\98\118\71\97\100\108\0\6\115\116\114\105\110\103\4\98\121\116\101\118\74\88\85\98\67\113\74\0\5\116\97\98\108\101\6\99\111\110\99\97\116\87\115\104\101\79\76\72\117\0\5\116\97\98\108\101\6\105\110\115\101\114\116\115\98\84\122\101\115\116\83\5";end end end else e=(e-0x3e3)%0x66ac n=n+1 while n<0x217 and e%0x3490<0x1a48 do n=n+1 e=(e-803)%38069 local l=n+e if(e%0x1df4)>=0xefa then e=(e*0x212)%0x8f12 local e=14158 if not t[e]then t[e]=0x1 d=getfenv and getfenv();end elseif e%2~=0 then e=(e*0x3fa)%0xaba9 local e=2024 if not t[e]then t[e]=0x1 d=(not d)and _ENV or d;end else e=(e*0x83)%0x46cf n=n+1 local e=63291 if not t[e]then t[e]=0x1 f=string;end end end end end e=(e*665)%18909 end l(j);local e={};for n=0x0,0xff do local t=s.mYRXIXcw(n);e[n]=t;e[t]=n;end local function o(n)return e[n];end local f=(function(j,l)local h,t=0x01,0x10 local n={{},{},{}}local d=-0x01 local e=0x01 local f=j while true do n[0x03][s.JIbvGadl(l,e,(function()e=h+e return e-0x01 end)())]=(function()d=d+0x01 return d end)()if d==(0x0f)then d=""t=0x000 break end end local d=#l while e<d+0x01 do n[0x02][t]=s.JIbvGadl(l,e,(function()e=h+e return e-0x01 end)())t=t+0x01 if t%0x02==0x00 then t=0x00 s.sbTzestS(n[0x01],(o((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+f)%0x100)));f=j+f;end end return s.WsheOLHu(n[0x01])end);l(f(198,"_.pYEo!zKIc)LDluYu"));l(f(22,"-h&6q;t%_2c<Wx9,9cxc6hhWbq9;xq<%69___6t;;&6%&&h;xc<9x;c&ch&7R<t/6x&;hcAq,h<Bc6<62<_)qc;cx6Whht7&96x&W&%2%_;q696tb,eN9%__%_W,<cc&_6%&;;xx&,Sxgc96x&c;cqt<;,%;69&q&<cq2&9;W6WU29&;%t;_q6q(&&,xx<9qcV<2%<t;;c,19&66/,r_9<WxWt2x2c%h;W;a66K%h%x99%W9c2_;_teW,26&&<h679,69{_<_c_h%ctt;h6<h%,&2t_Fxx<hc62__;th;h6?,%,;!}<<tpq2t<%xq9t%&thx&t9hx%%(;9<q22_%%&;c6<&cFxxt9W<h<c__tWq,6W9lW,&_,,9cx9WhqWc;__%qq,6<&xh;ph,%W,cq_6%W;<#/9Wq;&_hq9,x<Wxch_t26%t6t6q&h,2cA_<9eWWcx2W_W%&6Wq,*_,Wv6,tc<;tq&22%;ttq26h&WXc9,WWWh2<c6t<t9,&9s66hh{99W%6<9c92<_;%&q,h%&,,2x,WhW2<c6,"));local e=(-2709+(function()local t,e=0,1;(function(n,e)e(n(e,n),n(e,e and e))end)(function(d,n)if t>205 then return d end t=t+1 e=(e*410)%31209 if(e%1288)>644 then return n(d(d and n,n),n(n,n)and n(d,d))else return d end return n end,function(n,d)if t>418 then return n end t=t+1 e=(e*590)%7564 if(e%1780)<890 then e=(e*107)%38759 return n(d(n,n),n(d,n))else return n end return d end)return e;end)())local o=s.UPslBVYG or s.ikwePETI;local de=(getfenv)or(function()return _ENV end);local p=1;local d=2;local j=4;local l=3;local function te(b,...)local a=f(e,"?G0.tAjE8P:e^<(+0.P0Ae0t+)^(E+t8GGt^>A(tPjEG.:+A^<8et+((:^EAtI1+<8P<j:.A+<^E8EAtG(eAE^ttx<<j(.je.A+:^.8^e^E+AtGAE^A8Ye<tP<:^P8jj0A<pe^8(A800e::8E0.(++eePAA+00+&P:8<0t:+80.(%E<k+8<8j<j!1^(wPjj^.:++ee8^E.<GP+j;0P+0T.+Pe:EEt<GE<:P(yj<8PAA(0E.008(j^tjtt^GP<8:^j:.P*GA+AG((eE8-eeEtA.G8<A:ej^0:^e8PA0j%0(((:^t<G:GA<(PPEG(^+8e^A(G^(.e0EP.+CE<0:Gje0G.e^:8Et+9(GPeEEt.^<8:jjE.c+PO.+PeE8AAA0G<<:AQ:<.P^jA0(+EtV^+P0G((^:<Ej.+t^tjs^^t:)A(0<+AA.0A(0:eEtPtjE.8a^:EPPjA++(<eE8.tt:^Ej.eWt^<(t^iPAAje<8(t^GA<((8<(:0j+0^h8^jPAA<hG(At^Gt<+::j(.EBS.^q0e^PeAeeP8.t8GG<:+.<8PjEE^:PEAP00(e+8(0eP8.t:GI(..j+<^A8(AEEi(^^NEettm<GPBE^P:.Ae0jywe:P)08Gt<<:Ej+<tP<jj0++8^G8:jEA^(8ejEEtZ_PGelP<E:GAE0<(eejG<+.:^EA.(A:.AzE^jEPj..G(+eA8Gtthe(E:AEt.^P:jt0P+0ee^<eH8At<:eE:.:1.^^<<^.88j00<(teWEAAG:PE..8mG^:(E^GP<j0e:8PtPG0<e(A<eP+j^0P%A^.P0A:e88jtEGM<P+0<::Ejj.:+8^E8+(:e.E^tA9(<E:Qe0E0+(^<8<AjG+.00j(Ee.A^ttGA^^:0+^<:8eAtG<A8GG+v:0E<tj7G<PPEAe+:e88Gt^G8(j::E8.Pdt^:P:A<08^G8(A3GP(0GG(j:^E.0G<+:.0<+8e^8At(jetPG<<(:X*E(jPjA+08.(0P+0e:j8t.a:^+8^Ej.<+<^e8<j0H;(::(EEtGG.:+:eEt.ePAjU0t(<ej<.eE8.t<G0j+.++(^EPfP:PjA+GA(R:(E^.<=+<(.j>G^A8(AEP;t:Ge(<eEGrm:P+j8.GG:(.:^EA.(5E<IPPj00e+te<8jt+G8(G::E..^,A^(PEjOAG..GG^Pt<A^.t+j8eEE-.^^PAA(0E0e(j^.PjAP<<(8^8.80^G.<8eCj0<GPejW0P+0+<(<^G8P<+:8EG.:,.^^G<0GjE+LeP80teGt<<:jt+EEBt<.P.A^0A.GG+(GeeE..(G8<0:8W0+BPGA:0.t/G<<+eAEet^^0:(PAj^G.+(e^tGte0G(WjAAAt,OG<EPPAGG0<A^e8GX8GE(PeA0^.<w.<.:9GP0++nAE0j(j:+E8P8je.+bEe8P(A^0A(<AA00(t:<EjP0j<tA<<<0P(A:e(8EA4GP(0:eEtt<tj<0P+jG0:+.ht+P^08E0E&((j.(0e^<PjA+E^AP0.+jj^EetEG.<AAPEP0^lEE<PjjG0E+A:+EjACk:<0AEEE.0>j^.tt.:0A((ejjt.+_j8^8e.G^:PjAP00(ebt<(e8EttjGAj^..++^+8(AE0Z.3GE(+P.j+td1t^e:Aj<^.8^AAG((EeBEP.0t:<E:0jj0++8Gt+(et8(G8eGEetpwP<0+0^APjj:^08<AGG:(.(+(G:<EA.AP^j^0e+te<^Pe}8j0tGP<+:8j(.0+^j..U+0ee8tPv8At<Gj<jP<EE^+:=A(0E+59A+G:(EAtP+j<ePPE:0+uAA+08((eE8-eEEEA0:EEE.j++^8(t^(8tA(0P(.ePAEt(-ej(.t+<^j8+Ae0:(:e.E^88E:.8G.<^8rA^.G+0APEe(8eGE::e84tPs(<:j:08+G+<eAPtGtGj(GeAE0t8+(<::GA^.0(^^G8PA8G0(te..j.t#P<uAet&0E(^^tj+._<e:jj+.jNG^EetPjAt0^e0:+8^A02::G:<jP..2P8(PhAjGe(Ee+tttey8<P:E.GG(die(PjGt(:eG:e88t(QjP.jP.U.^+A^<8<A<0:80A.GG<::.e.P:E09:+8^08(t+0j(0ety+<8:Gj:..+^:A+<PE0.+4e0Eettj..em0<^:nj^+j8+j0G((Ee&^AeGj^.8<(<tP8jA00+(e^8eA.eG8.tNMP<0(+<j8(jt.0+8e08^t8G:<8eEb:<tPPj00etE0j_FetGe(t::E..^t(tG<8j..t+0ee8t8(8:A.BP<t:0EK.Ga.<0Ae+.^>80teGt0<G0<7eGjj.^{jA+0<((eE8xPjE.A.(:<^:8j00<PtjI0.(^eA^GejE^t8GtP(.Ei<^j8+A8jPA+0F<<e.E<t#ltee:Gj:.8<<eEPGA^etP0t._^<AGu^P:8A:.A+(ePPGt+G.e0EK.P;t^(PjjE0^+A^V8jt+G^<+EPt>;8<GP:e^0+Jte(8EAajPt.G<(8:jjP.e+<:jPEA^.#+Pe.8P(.e.E0.estGt+e<.EeAj0^+PeAE8t.:EE,.P>0^ePtA<.(0+ee8jt:G.<^(e<:P8E00(PAjA0t(<ej<Ge<E+0<q8<(:ejE0:+AA^0^(eetE<e0E(.PmA<<:Ej(0(+^e(0.(<e0EettA<.EGG<^.tW8^.8^AAjAt^0te<:EE(.Ez0<tP.AP0++(^jG+(::(EEtdt^tGLE<.P++P^888AGG:.:Ge(E:PE:tI+:^APb+te<8jt+G8(G::PEE^u8<0PEjw0P.j0t(PeGGj<+:8EG.:r.^^PAA(G++CeP80teAj<<:jj+.P5G^:P.j(t0((eE8ujeG0<e:tE+t+++^8PGA+0.(^eA:tA8Gl<P:0EG.t+(^je+A80A0:e.E^tAGt<E:GjP.0A8^t8<Aj0>(8eGE:AA.t<AP(jE..+P^08eEt.0(j:+E8tGS:00P^EE.:+E^08P8(Ge(t:<Ejt<k8<GP:jA0^+Ee(:EAtGP(0:eEt.<..^+::Ee0:+Ae^P^t(GE(*:P8:.euE^<PjA+0^+G(:8Pt^G8<(^8E{jti0<<<AA<0:(++A8Gt:G.((<Ej(.^h)^^P0Ae0t)<e8E+t<GG<+:.et.AG(<AP3A(00+&eteEtj0+(e:Gj+..mG^Ae8AEtu+<e08fttG0<j:^j8t.!t^.P0AAtt(EehEPt0c<<t:Gjj..+8^E8:j.8.(AeGEEA: P<jPePt.e+j^088A^G:+8:^:AAt;E<.PPE:0e+^e<8jjeG8(G::Ej.^Rj^(:Pj^0P+0ee8Et<Gj<+^88t.:*.^^PAA(A:+i^e8<teGj<<^Aj+.8-G^:PjA^0A((eP84teG0+e+(j<.j++^8PG8(0.+(GGE(t8Gv0^:0je.t/+<.8+A:0G(<e.E^tA0(+0:Xje.0+<^te^Aj.G(<eGE(t.te<AP(jE.3m.^08<At0G(j:+E8tGf+<.P<jA0(+E^08PA00((t:(EjtD_8<0P:jPj++Ae(8EPPGP(.:eEt.<N:D+P8jG0:.^e^8jt(0PX8:PE..e0P^<PjA+t8A+e:8At^GA<(+0EXAPG(^ePjA<08(++88Gt:0(<^:Ej(.:n%^PP0Ae0E(<eEE+t8GG<<:.E2tt+(^EP{P(00(^etP<:uF+<(:Gj+...:^AetEj0Y(+e0:<ttg(<j(<j8.A.:^.8^AAA_(EeGEPtjte<tP<jjEt+8^08:jAtt(AetEEjA9P<0PeEjAt+j^j88AtG:(.:^PAtPlE<EPPjP0e.^e<:jAAG8(8::E:.^.+^(eEj.0P+Pee8et<t*<+^88x.:*:^^P^A(jE+seP8+teGe<<:(j+.85G^:P+A^0e((eE8iAGG0<+(tj<.j++MePGAe0.4^+GE(A0GW(.:0eG.tc+Gj8+jA0G.(e.E^tA=(<::!Et.098^t8+Aj0A+PeG8At.t+<AP+jE.Y+P^j^eAtG<(j+0E8t0p:+.<8jA.P+E^A8P8PGe(t<GEjt:b8<.P:jA0^IA^j8EAeGPG.:eE(.<v^.3P8jE0:0(e^8jt(GP(C:<e0.eIt^<<GA+0P+G^H(tt^Gj<(<AE7.:)0^<PtjGjj(+e88GE8G.<<:A8(E.K;^:P0Ae0t++ejE+EjGG<e:.j(.A++^EP0E:00(^etE<tj4+<8:G<A..+(^A8+AE0d(Pe0PEttg+<j:Xj8.0+:<AP:AA0H(Ee.EPt0ge+t:0jj.G+8^.8:8jG^+Ee+EEttgPG(Pejt0<+j^+88A.G:(E:^EE.(0E<jPPjt0e+je<e:t+G(0t::EA.^8^^(P8jK0P+0e+^tt<Gj<+0+EG.e%.<(e<A(0:+Z<(80teGt+<Gtj+.^OG^^P.E+0A;(^A8Lt<G0<+:t^0.j++<EPGA(0.+GeAE(tEGK(;:0j(.t+<^jPtA80AJje.E^tAEE<E:GjPA0AA^tPAAj0j(8e(E:jP0e<A:jjEPE+P^.8ePeG<(:(+E8tGp:.:P^jj0(GEG:8PA:Ge(e:<8..+0(+dP:je0^A^e(88AKj:(0:+et.<1j^+++jG0e+.<^<+t(G+(}ebE0t8>t+.(+A+.p+GG<8.t<GAG.:EEtEP;0^ePt^*0j+Ne88A8:G.<^:A<A.EnG^Pe0eA0t+Aej8jt8G(<:^P8e.AVj^E+EAP0.(e<eE<t:t+<8:Gj:P:+^^j8(Aejf(Pe0Ee:<h<<EP+88j<+:^e8^A^G(+Pe4EPEN7e<^P<j80++P^GPretG^(8:(<Qt!!:<0P<jt.G.je+88AGE.(.:<EAA!0+<LP^j0AT+te<8jj+8j(G:(E..(IA+GPE8BtA+0e+8tAGGjG+:8EGteO.<_PAj.0E+LeP80A+Gt(/:jj+.8Wj^:PEj^0A((eEV.tPG.<e^t^E.j>E^8P8A:jG(^<eP<tEG8<PGEje.A+<(:8+A^jG(:e.E^e:c(<8:!j<E0+e^t8<<PG+(PeGP:E+h^<<P(j(.L+<^0P<e<G<+5:+^jtGD:<.P^j80(++^zP.A0G<(te.8j.+G4<GGAj.0<+Ae+8EAtAP(0:eEte8Cj<VP8jAj:+.e^8A<GGE(G:PP0EEOt<APjjj0808e:8.P0GA(j:EE0.P_t^e:jj.0j+8e88tt:G.<^^AE(.E-P^PPeAej^(<<jPtt8G:<::^j^j++((EP8AP0e(ee<E<ETb++8etj:.^+^^(8(E:0T+Pe+Eet^l<REP+EG.GnI0t8^A8G(A8e&E:t0m<<t:G:j0++8^G+eA.G<(A^(e.tI1^<0P<jt.++je+ejAGG<(.:(EA.+YE(0^Gj00(+t^c8jt+G8XG:+E..+bA<GPE:80PG0^08tAxGj(0:8:e.:0.(APAj00E+.eP:^teG:<(:jE..8PG^:PtA^0j((ee^ntPG0<e.tj<.E++(8(eA:0E(^e8E(AeG5+P+Pje.8+<^:8+8(0G(:^EE^tPg(<P:Vje.0Ge_}8<AeG+(^eG8jt.G(.RP(j(.%tt^08eAtG<(^:+E<tGGG<.P(jAty20^Y8+A0G^(t:<EjAGG^<G:Gj.t0+Ae(8EE908(0e0EtttNj6:P8E..t+.^t8A:0GE(5:PE0t82t<tPjjG08+.e:PAEtGA(j:Ee0.PD0^eet^:0j+Ee88Pt:t(<^eE8t.ESP^P:EAe0t(<^88pt8Ge<:<Ej^.A+(<PPPAP0<(e^PE<tjr+<8:jj:.e+^<x8(AP0s+PePEetez<GeP+E3.GG:<.8^A<G((^euPAt0G<+^P<j+0+.:^G8:A..^tA:(8wt>G0<0<jjt.+k+e+P0AGEt(.:^EAAkG<<4:tj0AP+te<8jjG.A(GejE.PjCA^(PEj,.++0^t8tAPGj(G:8EGt8>.<tPAjj0E+PePP0A0Gt(t:j8e.8XP^:^.Pg0A+AeE8PtP0G<e<teP.jSj^8^PA:AA(^^EPAtEG8<P(^je.t+<(jPeA80P(:eeE^jAg((PejjP.e+eyA8<AjG++:^^E:t<9^0+P(jE.J{e<<8eA+G<tC:+E8tG6:<EP^j<0(Q0^{8eA00ete:<E<.+A(<G:0j..(0<e(8+AnG^(0:eEtA<5e^+:zjG.0+.G.8AA(0:(Re E0j^-t<APj8+.j+G^G8.PBGAG0:E80.^Q0<.PtE.0j(+e8:GA0G.(t:AEj.E.e^P:tEj0t+jejP:t8GG<::.Pk.A j^EP0AP0t(e^t8.tjGE<8:+j:.P+^(A^eAE0P(PejEeA9B<(8ePj8.^+:^P8^AAG((EePEPtele<+P<j80+G8^j8:A<G^((:(e:tIFP(PPeE,0<+(e+88AGG:+<:^E+.(G.<lPej0teI<e<PGt+00(GeeE..^t+^(:0j90e+0e^8tA+G8<+e.EGAaO.^^PAE(0P+y^t80AjGtG8:j8Gt^4G<jP.j.0A((eE8&jGG0(j:tj+.jbG^8:.E00.+8eA^NtEGW<P^0EG.tOP^jPeA8A^(:^Ae<tAGe<E^8jP.0+e<j(GAj0<(8<PE:t.D^(E:(jE.++P(:8eAtG<(jelE8t<X:(0P^jE0(kE^t8PA<Ge0<:<80.+.8(eP:j(0^+Ee(<+A*tP(j:eE+.<GP^+^9jG.:MGe^P5t(t8(J:(E0.e.:^<:0A+08+Ge:8.j^Et<(etE_thu0(EPtE<0((+^A8GAEG.0P:A8(te,Y<jP0j80t.<ejPGAjGG(8:.PA.A+(^E^CEt00+tet:PtjGP<8<GEj..CA^A:^AE.<(P^tP8ttG^<j:0j8.G+:(.^8AA0<(Ee+EPPGue(j:Gjjt#+8G.8:A.G^(Ae+EEt+3P(.Pejj0<Gj^e88jFG:+0:^8(.(0E<PPPEG0eT.e<e+t+G((8::8t.^DP^(P8jX0++0ee(^t<Gj<+:<EG.:r.^^+<A(0E+,^q80teGt<<c(j+.8hG<jP.A^0A((G+82tPG0(8:tj<.j++.OPGA:0.+:eAE(tEG5tG:0je.tk8^j8+A80GGEe.8etAG+<E:GjPA0b^^tP^Aj08(8u:E:j.G8<A:<jE.++P+e8eA:0t(j^/E8tt1:<tP^jE0(+E088PA0Ge(e:<Ej.+s8.PP:j.0^_/e(8EAqGP+e:e8..<GE^+PPjG0:+Ae^Ptt(G8(%:PE0t<0G^<:jA+.8+Ge:8.A0G^<(e8EO.:x0^^PtA(0j(+0R8Gt:G.(e:Aj(.Eg#GeP0je0t(+ej8Gt80.+G:.E<.AxG^EP4APt0++et8(tj0W<8(Pj:A.G.^AP+AE.G(P(^Eejt08<jexj8t0+:<E8^EA..(E^GEPA.FeR<P<j8AC+8<t8:AAG^(A:(EEjj=P(.PeEE0<+Ee+88A<G:(.:^Ej.(4E< P(j00e+t^G8jt+G8(te.E..^OAtAUj<0PtjA0e(AegEe(0:<EG.:_.G.NEe+P:j.e^8EteGt<<(E(GP<j+0ePjjE0A((eE(<::EetP^t<j:Pje0P++e(0^(^eAE(AP.8<P:0je.A+<^j8+E8Ee(:e.E^tAR(<::48P8^+e^t8<AjG+(^eGP:P<4^<AP(jE.V+e^0PGAeG<(E:+E8tG1e<.P<jA0(A+^_8PA0Ge(t:<Ej.+!P<GP^j.0<+Ae(8EAXE^(0:<Et.(Xj<xP8jG8E+.e^8At+GE(s:PE..e9t^<:.A+08+Ge<8jt^GA<(GA<Ae})A<EPtA<0jtjGP(:e(APteGEeGP+jP.A+jA(0+(<ejE+Pt8#.<gt<88Aj:08oPe(Pt(eetE<tj-+<8:GE0E.+^^A8(AE02(Pe0EettGM<<P+j8.Gt:0+(<^(8.AP0.E^tPae<tP<e^PtAe.A+P^At+(8eEEEt&ZPGA{.^AP+AE00+^ej8^(jeKEA.(LE0E+:^eP++E^<8jt+G80PG+(LP<E..<q)^tEejG0:+8P<EEAGG^Et.(W.^^PA^A88A<G(8AAPGt<<:je0:&j0.^+te+PPA.0P^G:<EjtK48Ev.^++^8PGP<jPA(Gj(e:^0E<P:0jetj.d^j8+A80^(:e.E^jA0Y<E:sjP.0+e^:8<Ej0t(8eGE:t._^<8P(8E.E+P^.8eAtG<((:+E(A^g:<tP^j(0(+8^u8:A0G+0t:<Ej.+GG<GPej.t^t+e(88AKGP(0eEEtA<A<^+PPjG0e+.^A8At(G+(x::E0.<!t^+PjE+jt+Ge^8.t<GA( :E80E.d0^+PtjE0j(+e88GA(G.<(:AE0.Ec0^PP0E00t+!ejE+t8GG<:^.E..A1G^EP.AP0+(e^j8:tjG.<8:8j:..+^(A:jAE0t(PejEetAq<(8e^j8.j+:^88^AAG(+P+GEPt8Be<8P<jj0+z:SA8:A:G^(::(EEtk1P<PPej80<+<e+8:AGG:(A:^E8.(v:<XP<j0.ev0e<88t+0A(G:<E..^G8^(PEjq0:+0ee8tt<Gj<+:8EG.:G.^^PAA(0E+qeP80teGt<<:j:+.eGP^:P.A^PEAQ0+(Ge^8AtiG8<jP:.P+E^Z8eAeG((PeAEPtj=:<::tjEpL^:8+A80GAGGt(P::GG(.:NjP.0A00A+j^:jAAE0.e<:eEAtG40j:.^+P^08eP<8eA^G((.:jA<.8U(<eP.jP^.8+A0Ge(t00(t:+jP.tIAjj.j+Ae(8EPEE(Aj+(<P:+E^.8+e^j0<+:e^8At(jEt^m:(e:>EjtmPPEH08+Ge:<AeG8At:G=<.P:Ej.u+8e,P:A(0:(0eGE8<+:Pj(.E2ZtF+.^tP8+o^AE+t8GG0:!+^<:(AG.jLA^E8j.<GP(:eA8..<:tEA..+^^A<:^j8.t:G(^ee1j(t+9t<:.G+:^.8^AAG((E:9e8tAGt<tP<jjE0jy00+^etE+APG.(Pt.a(<0Pejt8GjA.G+e^3G:(.:^EA.(1E<D+9:0te+te<8jt+tP(G::E..^iA^(PEjjj^+0ee8tj^Gj(S:8EG.:/E ^PAA(0E{+eP8.teGt08:jj+.8UG^:PAA^AA+GeE8OtPG+<e:jj<t8m0^8P0A:0j(^eAE(jE0A<P:.je.A+<^<8+j:.P(:ejE^t<L(<E:sjPtP+e^A8<APG+(:eGP:APh^<jP(j8.RXA^0:ej(G<(E:+EPtGG8<.e^:G0(+8^_8:A0G+(te+8:.+}e<G:Pj.0^+Ae(8^A3G:(0:(Et.+vj<+:ejG0:+.e<8At+GE+0^AE0.^)t<nPjA+08GG<08.t<GA<+:EEE.PGt<(PtjS0j+8e88Gt:G.(<:Aj+.EB.^PPtAett0Pej8Yt8G0<::Ej^tEj<^EP.AP0<(eetE<tj0^<8:0j:.j+^^E8(EE.0(Pe.EetA{<<eP+E:.(+:^j8^AeG((EeZEPt^De<8P<jj0++8^G8:jeG^(8:(EetSNP<0Pejj0<+Ee+88AGGe(.e(P<.(98<b:.j00e+t^+^Et+G:(Ge:E..^bA^(^Aj10:+0e<8tt(Gj(.(8EG.:U.^^PAA+0E+*Gj80teGt<(:jj+.8sG^:P.A^0A(+eE8_tPGA(8:tj<.jE0.^%!^:E_jG08(E::A^t8GG<e.E+<^j8+j:tP(:e.E^tjk(<E:QjPPA+e^t8<AEG+(PeGE::Wl^<AP(j8.4+P^08eAtG<(j:+EPtG-:<.P+j^0(+E^U^<eE8(A8G+(Ae87+<GP:j.0^0(e(8EAsGP(0:eEtA<G:^+P8jG0:+.e<8At(0.(z:PE0.<ot^(PjA+.j+Ge:8.t<GA<(:EPqt(#0^ePtA<0j+ie88GA8G.<^:AEK.E G^PP0A<0t(<ej8vt8GG<::.j^.A+(^EP:AP00(eejE(tPGj<8:Gj:EEjG.8X0^P8+j0eA8.ttB<<j(+<E:tj..E+A^t8^(:e:EPt0reGE+(<tE0jE0<+je^8xt::(EEth%P<0Pejt0<ej^08+AGG:(.Q0<::GEe.+3ePA0(+Ae<8jt+E0(t:eE..^rA0EP:j.0P+0ee+0e08<(0:PEG.:d.0t^eA(0E+MeP8(teGt<<:jj+.8KG(:P^A^0A((eE8xt^G0<e:ej<.E++^PPGA:0.+(^^E(tPG <+:0je.tG<<08+A:0G(^e.8AtA0((j:9j^.0+e^tPEAj.G(PeGE(t.GG<AP(jEAh0A^0PIAtG<(jejE8tGG+<.P(jA..+E^08Pj0.8(t:(Ejt0J8<.P:j.tP+Ae+8EA0GP(0:eE:t^;j<uP8j+0:+te^8At(Ge0T:PE0.eG0^<PEA+0^.Ge:8.t^t.<(:8EWAPA^^ePAA<0j(+^48Gt:tt<^:Ej(.:rI^PP0jGE.(<eEE+AeGG<e:.j(.Aa0cEP}AP00+(etE(tjG.G8:Gj:..0:^A8+AEtgt.e0E^ttR<<j:Ej8.G0e^.8(AA00(Ee&EPt0j.<tP(jj.#+8^.8:A.t<(Ae}EEt.#P<0Pej:E^+j^688jeG:(t:^EE.(5eGFPPj00eY(e<8Et+G^0G::E..^08^(P8j 0P0.ee8jt<Ge<+:8EGt^A8^^P8A(0<+SeP80jeGE<<:Pj+.e2G<.P.E^.0((ee8itPG0(A:tj<te++^<PGAe0.(^eAP(j.G*<+:0je.tLt^j8+jP0G(<e.80tAG_<EeU8..0+<^tP,Aj00(8eAe:t.z^<A<.jE.G+P^0e^AtG+(jetE8tG7:(A^EjA.G+E^j8PA0Ge_t^:Ejt0v8<tP:j^0^GA<A8EAtGP(0:eE(.<Hj(EP8jj0:+je^8At(.E+A:PE8.eHt^<P<A+08&Ae:8jt^Ge<(:PE*tPGt^ePjA<0P(+ee8Gt:tP<^:Ej(.8pX^PP0Ae8((<e8E+t:GG<::.E EA+(^EP/8(00(^etE<EE{+<P:Gj+..+^^A:(:A0b(:e0E^ttO+<jP+EA.G+e^.8(AAG+(EeMPtt0X^<tP(jj0++8+GP<A.G<(Ae0EEtGTP<0:<jt0(+j^&88AGG:(.e(EA.+ZE<0PPj00e+tG:8jt+G8(0::E..^nA^(PEj}0P+0");local n=0;s.oDMsqlLr(function()s.wiodAUvG()n=n+1 end)local function e(e,t)if t then return n end;n=e+n;end local t,n,r=h(0,h,e,a,s.vJXUbCqJ);local function f()local n,t=s.vJXUbCqJ(a,e(1,3),e(5,6)+2);e(2);return(t*256)+n;end;local u=true;local u=0 local function g()local e=n();local n=n();local l=1;local d=(t(n,1,20)*(2^32))+e;local e=t(n,21,31);local n=((-1)^t(n,32));if(e==0)then if(d==u)then return n*0;else e=1;l=0;end;elseif(e==2047)then return(d==0)and(n*(1/0))or(n*(0/0));end;return s.aUtFuMMX(n,e-1023)*(l+(d/(2^52)));end;local _=n;local function k(n)local t;if(not n)then n=_();if(n==0)then return'';end;end;t=s.JIbvGadl(a,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+u),#t do e=e..s.JIbvGadl(t,n,n)end return e;end;local _=#s.FrMlPJCF(c('\49.\48'))~=1 local e=n;local function te(...)return{...},s.hcVaQoMf('#',...)end local function ne()local e={};local a={};local c={};local u={c,a,nil,e};local e=n()local o={}for d=1,e do local t=r();local e;if(t==2)then e=(r()~=#{});elseif(t==0)then local n=g();if _ and s.QfCMyXTq(s.FrMlPJCF(n),'.(\48+)$')then n=s.eCqQMEcj(n);end e=n;elseif(t==3)then e=k();end;o[d]=e;end;for a=1,n()do local e=r();if(t(e,1,1)==0)then local h=t(e,2,3);local r=t(e,4,6);local e={f(),f(),nil,nil};if(h==0)then e[l]=f();e[j]=f();elseif(h==#{1})then e[l]=n();elseif(h==b[2])then e[l]=n()-(2^16)elseif(h==b[3])then e[l]=n()-(2^16)e[j]=f();end;if(t(r,1,1)==1)then e[d]=o[e[d]]end if(t(r,2,2)==1)then e[l]=o[e[l]]end if(t(r,3,3)==1)then e[j]=o[e[j]]end c[a]=e;end end;for e=1,n()do a[e-(#{1})]=ne();end;u[3]=r();return u;end;local function ee(t,n,e)local d=n;local d=e;return c(s.QfCMyXTq(s.QfCMyXTq(({s.oDMsqlLr(t)})[2],n),e))end local function k(m,c,r)local function ne(...)local f,_,y,ne,u,n,a,ee,z,g,b,t;local e=0;while-1<e do if 3>e then if e<=0 then f=h(6,1,1,87,m);_=h(6,67,2,17,m);else if 1==e then y=h(6,77,3,29,m);u=te ne=0;else n=-41;a=-1;end end else if e>=5 then if 4~=e then for n=43,54 do if 5<e then e=-2;break;end;t=h(7);break;end;else e=-2;end else if 0<=e then repeat if e~=4 then ee={};z={...};break;end;g=s.hcVaQoMf('#',...)-1;b={};until true;else g=s.hcVaQoMf('#',...)-1;b={};end end end e=e+1;end;for e=0,g do if(e>=y)then ee[e-y]=z[e+1];else t[e]=z[e+1];end;end;local e=g-y+1 local e;local h;local function g(...)while true do end end while true do if n<-40 then n=n+42 end e=f[n];h=e[p];if 56>h then if 27<h then if h<=41 then if 34>=h then if 30<h then if 32<h then if 32<=h then repeat if 33<h then local f=e[d];local j=e[j];local d=f+2 local f={t[f](t[f+1],t[d])};for e=1,j do t[d+e]=f[e];end;local f=f[1]if f then t[d]=f n=e[l];else n=n+1;end;break;end;t[e[d]]=k(_[e[l]],nil,r);until true;else t[e[d]]=k(_[e[l]],nil,r);end else if h>31 then do return end;else if(t[e[d]]~=e[j])then n=n+1;else n=e[l];end;end end else if h>28 then if h>=28 then repeat if 29~=h then t[e[d]]=(e[l]~=0);break;end;local a=_[e[l]];local o;local h={};o=s.OuRqn_Qh({},{__index=function(n,e)local e=h[e];return e[1][e[2]];end,__newindex=function(t,e,n)local e=h[e]e[1][e[2]]=n;end;});for d=1,e[j]do n=n+1;local e=f[n];if e[p]==104 then h[d-1]={t,e[l]};else h[d-1]={c,e[l]};end;b[#b+1]=h;end;t[e[d]]=k(a,o,r);until true;else local a=_[e[l]];local o;local h={};o=s.OuRqn_Qh({},{__index=function(n,e)local e=h[e];return e[1][e[2]];end,__newindex=function(t,e,n)local e=h[e]e[1][e[2]]=n;end;});for d=1,e[j]do n=n+1;local e=f[n];if e[p]==104 then h[d-1]={t,e[l]};else h[d-1]={c,e[l]};end;b[#b+1]=h;end;t[e[d]]=k(a,o,r);end else t[e[d]]=c[e[l]];end end else if h<=37 then if h>=36 then if 34<h then repeat if h~=37 then local h;for o=0,1 do if-3~=o then repeat if 0<o then t[e[d]][e[l]]=t[e[j]];break;end;h=e[d]t[h]=t[h](t[h+1])n=n+1;e=f[n];until true;else h=e[d]t[h]=t[h](t[h+1])n=n+1;e=f[n];end end break;end;t[e[d]]=r[e[l]];until true;else t[e[d]]=r[e[l]];end else local l=e[l];local n=t[l]for e=l+1,e[j]do n=n..t[e];end;t[e[d]]=n;end else if 40>h then if h>=36 then for s=37,69 do if 39>h then local j;j=e[d]t[j](o(t,j+1,e[l]))n=n+1;e=f[n];do return end;break;end;local h,_,c,k,s,b;for c=0,6 do if c>=3 then if c>4 then if c~=2 then repeat if 5~=c then h=e[d]b={t[h](o(t,h+1,a))};s=0;for e=h,e[j]do s=s+1;t[e]=b[s];end break;end;h=e[d]b,k=u(t[h](t[h+1]))a=k+h-1 s=0;for e=h,a do s=s+1;t[e]=b[s];end;n=n+1;e=f[n];until true;else h=e[d]b,k=u(t[h](t[h+1]))a=k+h-1 s=0;for e=h,a do s=s+1;t[e]=b[s];end;n=n+1;e=f[n];end else if c~=-1 then repeat if 4~=c then t[e[d]]=t[e[l]][e[j]];n=n+1;e=f[n];break;end;h=e[d];_=t[e[l]];t[h+1]=_;t[h]=_[e[j]];n=n+1;e=f[n];until true;else t[e[d]]=t[e[l]][e[j]];n=n+1;e=f[n];end end else if 1<=c then if c~=2 then t[e[d]]=t[e[l]][e[j]];n=n+1;e=f[n];else t[e[d]]=t[e[l]][e[j]];n=n+1;e=f[n];end else t[e[d]]=r[e[l]];n=n+1;e=f[n];end end end break;end;else local j;j=e[d]t[j](o(t,j+1,e[l]))n=n+1;e=f[n];do return end;end else if 41~=h then t[e[d]]=r[e[l]];else t[e[d]]=k(_[e[l]],nil,r);end end end end else if h>48 then if h<=51 then if h>49 then if h~=50 then for h=0,4 do if 2>h then if-4<h then repeat if 1>h then t[
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Thanks CaoMod and GiangVNHub for help me",Text = ""..game.Players.LocalPlayer.Character.Name.."                       Have fun:]     [Make by Kiet]" ,Duration = 5, Icon = "rbxthumb://type=Asset&id=206410289&w=10&h=10"})
+local ModelEffect = game:GetObjects("rbxassetid://14949130713")[1]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/Slap-aura/refs/heads/main/Slap%20aura%20script"))()
+if ModelEffect then
+    for i,v in pairs(ModelEffect.HumanoidRootPart:GetChildren()) do
+        if v.ClassName == "ParticleEmitter" then
+            for i,p in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                if p:IsA("Part") then
+                    v:Clone().Parent = p
+                end
+            end
+        end
+    end
+    ModelEffect:Destroy()
+end
+
+-- Teleport to map script
+local function teleportToMap()
+    local targetPart = workspace.Arena["main island"].Grass
+
+    -- Function to teleport the player
+    local function teleportToPart()
+        local player = game.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+        -- Set the position of the HumanoidRootPart to the target part's position
+        humanoidRootPart.CFrame = targetPart.CFrame + Vector3.new(0, 3, 0) -- Slightly above the grass
+    end
+
+    -- Call the function to teleport
+    teleportToPart()
+end
+
+-- Call the teleport function when the script is executed
+teleportToMap()
+
+local ModelDeath = game:GetObjects("rbxassetid://12195574482")[1]
+if ModelDeath then
+    for i,a in pairs(ModelDeath.Torso:GetDescendants()) do
+        if a.Name == "Attachment4" or a.Name == "Flare" or a.Name == "Star3" or a.Name == "Bits" then
+            a:Destroy() 
+        end
+    end
+    for i,a in pairs(ModelDeath.Torso:GetChildren()) do
+        if a.ClassName == "Attachment" and a:FindFirstChildWhichIsA("ParticleEmitter") then
+            a:Clone().Parent = game.Players.LocalPlayer.Character.Torso
+        end
+    end
+    ModelDeath:Destroy()
+end
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+local animationId = "rbxassetid://17737989045"
+
+local part = Instance.new("Part")
+part.Size = Vector3.new(5, 1, 5)
+part.Position = humanoidRootPart.Position + Vector3.new(0, 4, 0)
+part.Anchored = true
+part.CanCollide = false
+part.Color = Color3.fromRGB(255, 0, 0)
+part.Parent = game.Workspace
+part.Transparency = 1
+
+local animation = Instance.new("Animation")
+animation.AnimationId = animationId
+local humanoid = character:WaitForChild("Humanoid")
+local animTrack = humanoid:LoadAnimation(animation)
+animTrack:Play()
+
+local bodyPosition = Instance.new("BodyPosition")
+bodyPosition.MaxForce = Vector3.new(10000, 10000, 10000)
+bodyPosition.D = 10
+bodyPosition.P = 10000
+bodyPosition.Parent = humanoidRootPart
+
+local reachedTarget = false
+local targetHeight = part.Position.Y + 6
+local speed = 0.5
+
+humanoid.WalkSpeed = 45
+humanoid.JumpPower = 50
+
+game:GetService("RunService").Heartbeat:Connect(function()
+    local currentPos = humanoidRootPart.Position
+    part.Position = Vector3.new(currentPos.X, -2, currentPos.Z)
+
+    if not reachedTarget and currentPos.Y < targetHeight then
+        local newHeight = currentPos.Y + speed
+        if newHeight < targetHeight then
+            bodyPosition.Position = Vector3.new(currentPos.X, newHeight, currentPos.Z)
+        else
+            bodyPosition.Position = Vector3.new(currentPos.X, targetHeight, currentPos.Z)
+            reachedTarget = true
+        end
+    else
+        bodyPosition:Destroy()
+        part.CanCollide = true
+        reachedTarget = true
+    end
+end)
+
+humanoid.Died:Connect(function()
+    part:Destroy()
+    bodyPosition:Destroy()
+end)
+-- Music loop control
+local musicLoopEnabled = true  -- Variable to control the music loop
+
+local musicLoop = spawn(function()
+    while musicLoopEnabled do
+        local args = {
+            [1] = "rbxassetid://18247261893",
+            [2] = game:GetService("Players").LocalPlayer.Character:WaitForChild("Torso")
+        }
+
+        game:GetService("ReplicatedStorage"):WaitForChild("PlaySoundRemote"):InvokeServer(unpack(args))
+        wait(92)  -- Wait for 92 seconds before playing the sound again
+    end
+end)
+
+-- Event listener for player reset (stop music)
+game.Players.LocalPlayer.CharacterAdded:Connect(function()
+    stopMusicLoop()  -- Stop music when the player resets
+end)
