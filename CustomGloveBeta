@@ -1,5 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Thanks CaoMod and GiangVNHub for help me",Text = ""..game.Players.LocalPlayer.Character.Name.."                       Have fun:]     [Make by Kiet]" ,Duration = 5, Icon = "rbxthumb://type=Asset&id=206410289&w=10&h=10"})
 local ModelEffect = game:GetObjects("rbxassetid://14949130713")[1]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/Slap-aura/refs/heads/main/Slap%20aura%20script"))()
 if ModelEffect then
     for i,v in pairs(ModelEffect.HumanoidRootPart:GetChildren()) do
         if v.ClassName == "ParticleEmitter" then
