@@ -199,4 +199,9 @@ gloveHits = {
 ["Custom"] = game.ReplicatedStorage.CustomHit,
 ["God's Hand"] = game.ReplicatedStorage.Godshand,
 ["Error"] = game.ReplicatedStorage.Errorhit
+["Boxer"] = local args = {
+                            [1] = otherPlayer,
+                            [2] = true
+                        }
+                        BoxingEvent:FireServer(unpack(args))
 }
