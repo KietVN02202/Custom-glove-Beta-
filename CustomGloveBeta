@@ -4,6 +4,7 @@ game.StarterGui : SetCore ("SendNotification", {
          Icon = "";
          Duration = "3";
 })
+local ModelEffect = game:GetObjects("rbxassetid://14949130713")[1]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/Slap-aura/refs/heads/main/Slap%20aura%20script"))()
 if ModelEffect then
     for i,v in pairs(ModelEffect.HumanoidRootPart:GetChildren()) do
