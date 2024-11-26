@@ -1,0 +1,146 @@
+game.StarterGui : SetCore ("SendNotification", { 
+         Title = "Make by KIET";
+         Text = "Thanks CaoMod and GiangVNHub for helping me";
+         Icon = "";
+         Duration = "3";
+})
+wait(2)
+game.StarterGui : SetCore ("SendNotification", { 
+         Title = "Wait 15 second";
+         Text = "Don't forgot use shift lock";
+         Icon = "";
+         Duration = "10";
+})
+Wait(15)
+game.StarterGui : SetCore ("SendNotification", { 
+         Title = "Have fun:]";
+         Text = "";
+         Icon = "";
+         Duration = "3";
+})
+local ModelEffect = game:GetObjects("rbxassetid://14949130713")[1]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/Slap-aura/refs/heads/main/Slap%20aura%20script"))()
+if ModelEffect then
+    for i,v in pairs(ModelEffect.HumanoidRootPart:GetChildren()) do
+        if v.ClassName == "ParticleEmitter" then
+            for i,p in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                if p:IsA("Part") then
+                    v:Clone().Parent = p
+                end
+            end
+        end
+    end
+    ModelEffect:Destroy()
+end
+
+-- Teleport to map script
+local function teleportToMap()
+    local targetPart = workspace.Arena["main island"].Grass
+
+    -- Function to teleport the player
+    local function teleportToPart()
+        local player = game.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+        -- Set the position of the HumanoidRootPart to the target part's position
+        humanoidRootPart.CFrame = targetPart.CFrame + Vector3.new(0, 3, 0) -- Slightly above the grass
+    end
+
+    -- Call the function to teleport
+    teleportToPart()
+end
+
+-- Call the teleport function when the script is executed
+teleportToMap()
+
+local ModelDeath = game:GetObjects("rbxassetid://12195574482")[1]
+if ModelDeath then
+    for i,a in pairs(ModelDeath.Torso:GetDescendants()) do
+        if a.Name == "Attachment4" or a.Name == "Flare" or a.Name == "Star3" or a.Name == "Bits" then
+            a:Destroy() 
+        end
+    end
+    for i,a in pairs(ModelDeath.Torso:GetChildren()) do
+        if a.ClassName == "Attachment" and a:FindFirstChildWhichIsA("ParticleEmitter") then
+            a:Clone().Parent = game.Players.LocalPlayer.Character.Torso
+        end
+    end
+    ModelDeath:Destroy()
+end
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+local animationId = "rbxassetid://17737989045"
+
+local part = Instance.new("Part")
+part.Size = Vector3.new(5, 1, 5)
+part.Position = humanoidRootPart.Position + Vector3.new(0, 4, 0)
+part.Anchored = true
+part.CanCollide = false
+part.Color = Color3.fromRGB(255, 0, 0)
+part.Parent = game.Workspace
+part.Transparency = 1
+
+local animation = Instance.new("Animation")
+animation.AnimationId = animationId
+local humanoid = character:WaitForChild("Humanoid")
+local animTrack = humanoid:LoadAnimation(animation)
+animTrack:Play()
+
+local bodyPosition = Instance.new("BodyPosition")
+bodyPosition.MaxForce = Vector3.new(10000, 10000, 10000)
+bodyPosition.D = 10
+bodyPosition.P = 10000
+bodyPosition.Parent = humanoidRootPart
+
+local reachedTarget = false
+local targetHeight = part.Position.Y + 6
+local speed = 0.5
+
+humanoid.WalkSpeed = 45
+humanoid.JumpPower = 50
+
+game:GetService("RunService").Heartbeat:Connect(function()
+    local currentPos = humanoidRootPart.Position
+    part.Position = Vector3.new(currentPos.X, -6, currentPos.Z)
+
+    if not reachedTarget and currentPos.Y < targetHeight then
+        local newHeight = currentPos.Y + speed
+        if newHeight < targetHeight then
+            bodyPosition.Position = Vector3.new(currentPos.X, newHeight, currentPos.Z)
+        else
+            bodyPosition.Position = Vector3.new(currentPos.X, targetHeight, currentPos.Z)
+            reachedTarget = true
+        end
+    else
+        bodyPosition:Destroy()
+        part.CanCollide = true
+        reachedTarget = true
+    end
+end)
+
+humanoid.Died:Connect(function()
+    part:Destroy()
+    bodyPosition:Destroy()
+end)
+-- Music loop control
+local musicLoopEnabled = true  -- Variable to control the music loop
+
+local musicLoop = spawn(function()
+    while musicLoopEnabled do
+        local args = {
+            [1] = "rbxassetid://18247261893",
+            [2] = game:GetService("Players").LocalPlayer.Character:WaitForChild("Torso")
+        }
+
+        game:GetService("ReplicatedStorage"):WaitForChild("PlaySoundRemote"):InvokeServer(unpack(args))
+        wait(90)  -- Wait for 90 seconds before playing the sound again
+    end
+end)
+
+-- Event listener for player reset (stop music)
+game.Players.LocalPlayer.CharacterAdded:Connect(function()
+    stopMusicLoop()  -- Stop music when the player resets
+end)
